@@ -1,0 +1,6 @@
+# Ignore your Chrome extension manifest
+manifest.json
+
+# Ignore all templates
+templates/
+

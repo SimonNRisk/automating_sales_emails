@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cold Email Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Cold Email Generator</h1>
+
+  <label for="companyName">Company Name:</label><br>
+  <input type="text" id="companyName" placeholder="e.g. Stripe"><br><br>
+
+  <label for="recipientEmail">Recipient Email:</label><br>
+  <input type="email" id="recipientEmail" placeholder="e.g. ceo@stripe.com"><br><br>
+
+  <button id="generateBtn">Generate & Insert Email</button>
+  <div id="spinner" class="spinner" style="display: none;"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

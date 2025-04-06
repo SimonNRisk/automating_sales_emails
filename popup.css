@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #8b181b;  /* Rich red tone */
+    text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+button {
+    background-color: #8b181b;  /* Rich red tone */
+    color: #FFFFFF;             /* Clean white text */
+    border: none;               /* No border for a sleek look */
+    padding: 12px 24px;         /* Comfortable size */
+    width: 100%;                /* Full width for balance */
+    border-radius: 8px;         /* Rounded corners for a modern look */
+    cursor: pointer;            /* Show pointer on hover */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Smooth transitions */
+    box-shadow: 0 3px 10px rgba(139, 24, 27, 0.5);  /* Soft glow */
+    font-weight: bold;          /* Strong text for visibility */
+}
+
+button:hover {
+    background-color: #6f1214;  /* Darker red for hover effect */
+    transform: scale(1.05);     /* Slight enlargement on hover */
+    box-shadow: 0 4px 15px rgba(111, 18, 20, 0.8); /* Enhanced glow effect */
+}
+
+button:active {
+    background-color: #5a0e10;  /* Even darker red for click effect */
+    transform: scale(0.98);     /* Slight shrink on click */
+}
+
+.spinner {
+    border: 4px solid #f4d6d7;
+    border-top: 4px solid #8b181b;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    animation: spin 0.8s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
